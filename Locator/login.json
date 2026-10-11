@@ -1,0 +1,5 @@
+{
+    "usernamelocator" : "input[name='username']",
+    "passwordlocator" : "input[name='password']",
+    "submitlocator" : "button[type='submit']"
+}
