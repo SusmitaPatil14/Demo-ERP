@@ -1,7 +1,7 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
 
-
+//update
 //calling the LoginPage class from the page object model
 import { LoginPage } from '../pages/LoginPage';
  test('login test', async ({ page }) => {
