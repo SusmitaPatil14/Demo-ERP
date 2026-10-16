@@ -1,7 +1,7 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
 
-//update
+//update test
 //Changes
 //calling the LoginPage class from the page object model
 import { LoginPage } from '../pages/LoginPage';
