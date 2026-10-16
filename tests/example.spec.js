@@ -2,6 +2,7 @@
 import { test, expect } from '@playwright/test';
 
 //update
+//Changes
 //calling the LoginPage class from the page object model
 import { LoginPage } from '../pages/LoginPage';
  test('login test', async ({ page }) => {
@@ -80,6 +81,5 @@ test('registers a user on Guru99', async ({ page }) => {
   await page.locator('input[name="confirmPassword"]').fill('Password123!');
   await page.locator('input[name="submit"]').click();
 });*/
-
 
 
